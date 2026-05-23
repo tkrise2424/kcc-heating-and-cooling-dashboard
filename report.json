@@ -8,7 +8,7 @@
   "period_end": "2026-05-23",
   "period_days": 33,
   "generated_at": "2026-05-23T17:33 EDT",
-  "revised_at": "2026-05-23T18:08 EDT",
+  "revised_at": "2026-05-23T18:14 EDT",
   "baseline_label": "Report #001 Baseline (no prior period)",
   "github_repo": "tkrise2424/kcc-heating-and-cooling-dashboard",
   "dashboard_url": "http://kcc-heating-and-cooling.mercenarymarketing.ai/",
@@ -271,11 +271,6 @@
       "priority": "low",
       "action": "Increase Send Volume on Spring HVAC Maintenance",
       "detail": "Only 53/1,120 members reached so far. Consider adding Saturday to accelerate."
-    },
-    {
-      "priority": "low",
-      "action": "Set Up Reply Monitoring Alerts",
-      "detail": "As send volume scales, set up notifications for replies so the KCC team can respond promptly."
     }
   ],
   "report_name": "KCC Heating & Cooling Biweekly Report"
