@@ -8,14 +8,15 @@
   "period_end": "2026-05-23",
   "period_days": 33,
   "generated_at": "2026-05-23T17:33 EDT",
-  "revised_at": "2026-05-23T18:07 EDT",
+  "revised_at": "2026-05-23T18:08 EDT",
   "baseline_label": "Report #001 Baseline (no prior period)",
   "github_repo": "tkrise2424/kcc-heating-and-cooling-dashboard",
   "dashboard_url": "http://kcc-heating-and-cooling.mercenarymarketing.ai/",
   "prosp": false,
   "post_report_update": {
     "title": "Energy Efficiency Sequence \u2014 Duplicated & Re-Launched",
-    "detail": "After the initial report identified 0 sends on the HVAC Energy Efficiency & System Upgrade Outreach sequence, Todd investigated and confirmed auto-approve was not enabled. The sequence has been duplicated, re-launched to 499 contacts as 'HVAC Energy Efficiency & System Upgrade Outreach 05.23.26', with timezone corrected to America/New_York and daily send limit raised to 20.",
+    "detail": "After the initial report identified 0 sends on the HVAC Energy Efficiency & System Upgrade Outreach sequence, Todd investigated and confirmed auto-approve was not enabled. The sequence has been duplicated, re-launched to 499 contacts with timezone corrected to America/New_York and daily send limit raised to 20.",
+    "original_sequence_id": "5846b049-9a7e-4b51-91af-4e80fd4d9f4c",
     "new_sequence_id": "af6368a3-3983-4a8d-be4c-8763fd9f48d4",
     "new_sequence_members": 499,
     "fixes_applied": [
@@ -23,11 +24,11 @@
       "Timezone corrected: America/Chicago \u2192 America/New_York",
       "Daily sender limit: 15 \u2192 20",
       "Notification users added for reply monitoring"
-    ],
-    "first_sends_expected": "Monday, May 26, 2026"
+    ]
   },
   "email_sequences": {
     "summary": {
+      "total_sequences": 5,
       "active_sequences": 5,
       "total_members": 7391,
       "total_executions": 1157,
@@ -61,8 +62,9 @@
         "replies": 0,
         "bounces": 0,
         "bounce_rate": 0,
+        "ooo": 0,
         "steps": [],
-        "notes": "\ud83d\udd04 Re-launched May 23 5:56 PM EDT. Duplicated from original, timezone fixed to Eastern, 20/day limit. 499 members queued \u2014 first sends expected Monday May 26."
+        "notes": "Re-launched May 23 5:56 PM EDT. Timezone fixed to Eastern, 20/day limit. First sends expected Monday May 26."
       },
       {
         "name": "HVAC Repair & Replacement Intent Outreach",
@@ -80,6 +82,7 @@
         "replies": 0,
         "bounces": 2,
         "bounce_rate": 0.41,
+        "ooo": 0,
         "steps": [
           {
             "step_order": 1,
@@ -136,6 +139,7 @@
         "replies": 0,
         "bounces": 1,
         "bounce_rate": 1.89,
+        "ooo": 0,
         "steps": [
           {
             "step_order": 1,
@@ -174,7 +178,7 @@
             "click_rate": 0
           }
         ],
-        "notes": "Just started sending \u2014 only 53/1120 reached. Mon-Fri only schedule with 2/15 rate limits."
+        "notes": "Just started sending \u2014 only 53/1120 reached."
       },
       {
         "name": "MMai_KCC_Amana Co-Op Email Sequence_040526_tk",
@@ -192,6 +196,7 @@
         "replies": 0,
         "bounces": 14,
         "bounce_rate": 2.29,
+        "ooo": 0,
         "steps": [
           {
             "step_order": 1,
@@ -221,7 +226,7 @@
             "click_rate": 1.74
           }
         ],
-        "notes": "\u2b50 Top performer: 9.98% open rate. Email 1 at 14.29% OR. Highest volume and engagement in the account."
+        "notes": "Top performer: 9.98% open rate. Email 1 at 14.29% OR. Highest volume and engagement in the account."
       }
     ]
   },
@@ -231,35 +236,31 @@
   },
   "key_insights": [
     {
-      "title": "\u2705 Energy Efficiency Sequence \u2014 Resolved & Re-Launched",
-      "detail": "The original Energy Efficiency sequence was active but never sent due to an auto-approve issue. Sequence has been duplicated, re-launched to 499 contacts, timezone fixed to Eastern, and daily send limit raised to 20. First sends expected Monday May 26."
+      "title": "Energy Efficiency Sequence \u2014 Resolved & Re-Launched",
+      "detail": "The original sequence was active but never sent due to an auto-approve issue. Duplicated and re-launched to 499 contacts with timezone fixed to Eastern and daily send limit raised to 20. First sends expected Monday May 26."
     },
     {
-      "title": "\ud83d\udd2c First Engagement Data Now Available",
+      "title": "First Engagement Data Now Available",
       "detail": "Open and click tracking is live across all active sequences. Email 1 of the Amana Co-Op sequence achieved a 14.29% open rate \u2014 a strong early signal for a brand-new account."
     },
     {
-      "title": "\u2b50 Amana Co-Op Leads All Metrics",
+      "title": "Amana Co-Op Leads All Metrics",
       "detail": "The Amana Co-Op sequence has 9.98% overall open rate and accounts for 73% of all opens and 53% of all clicks in the account."
     },
     {
-      "title": "\u26a0 Bounce Rate Elevated on Amana",
-      "detail": "14 bounces out of 611 sent (2.29%). Validate Emails is enabled \u2014 monitor and consider list cleaning if the rate doesn't improve."
+      "title": "Bounce Rate Elevated on Amana",
+      "detail": "14 bounces out of 611 sent (2.29%). Validate Emails is already enabled \u2014 monitor and consider list cleaning if the rate doesn't improve."
     },
     {
-      "title": "\ud83d\udced No Replies Yet",
+      "title": "No Replies Yet",
       "detail": "0 replies from 1,157 total executions. Normal for a brand-new account in its first month."
-    },
-    {
-      "title": "\ud83d\ude80 Ready for First Full Week",
-      "detail": "With the Energy Efficiency re-launch, all 5 active sequences are now properly configured and sending. Next week (May 26\u201330) will be the first full week of activity for the account."
     }
   ],
   "next_steps": [
     {
       "priority": "high",
-      "action": "\u2705 DONE \u2014 Energy Efficiency Sequence Re-Launched",
-      "detail": "Duplicated and re-launched May 23. 499 members queued. Monitor for first sends on Monday May 26."
+      "action": "Monitor New Energy Efficiency Sequence",
+      "detail": "Re-launched May 23 with 499 members. Confirm first sends flowing on Monday May 26."
     },
     {
       "priority": "medium",
@@ -267,14 +268,14 @@
       "detail": "At 2.29% bounce rate with 14 bounces. Validate Emails is already enabled."
     },
     {
-      "priority": "medium",
+      "priority": "low",
       "action": "Increase Send Volume on Spring HVAC Maintenance",
       "detail": "Only 53/1,120 members reached so far. Consider adding Saturday to accelerate."
     },
     {
       "priority": "low",
       "action": "Set Up Reply Monitoring Alerts",
-      "detail": "As send volume scales, ensure the KCC team gets notified of replies so they can respond promptly."
+      "detail": "As send volume scales, set up notifications for replies so the KCC team can respond promptly."
     }
   ],
   "report_name": "KCC Heating & Cooling Biweekly Report"
