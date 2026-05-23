@@ -8,30 +8,27 @@
   "period_end": "2026-05-23",
   "period_days": 33,
   "generated_at": "2026-05-23T17:33 EDT",
-  "revised_at": "2026-05-23T18:00 EDT",
+  "revised_at": "2026-05-23T18:07 EDT",
   "baseline_label": "Report #001 Baseline (no prior period)",
   "github_repo": "tkrise2424/kcc-heating-and-cooling-dashboard",
   "dashboard_url": "http://kcc-heating-and-cooling.mercenarymarketing.ai/",
   "prosp": false,
   "post_report_update": {
     "title": "Energy Efficiency Sequence \u2014 Duplicated & Re-Launched",
-    "detail": "After the initial report identified 0 sends on the HVAC Energy Efficiency & System Upgrade Outreach sequence, Todd investigated and confirmed auto-approve was not enabled \u2014 the sequence was 'active' but never actually sending. The sequence has been duplicated, re-launched to 499 contacts as 'HVAC Energy Efficiency & System Upgrade Outreach 05.23.26', with timezone corrected to America/New_York and daily send limit raised to 20. The original sequence (410 members) is now paused.",
-    "original_sequence_id": "5846b049-9a7e-4b51-91af-4e80fd4d9f4c",
+    "detail": "After the initial report identified 0 sends on the HVAC Energy Efficiency & System Upgrade Outreach sequence, Todd investigated and confirmed auto-approve was not enabled. The sequence has been duplicated, re-launched to 499 contacts as 'HVAC Energy Efficiency & System Upgrade Outreach 05.23.26', with timezone corrected to America/New_York and daily send limit raised to 20.",
     "new_sequence_id": "af6368a3-3983-4a8d-be4c-8763fd9f48d4",
     "new_sequence_members": 499,
     "fixes_applied": [
       "Duplicated and re-launched to bypass auto-approve issue",
       "Timezone corrected: America/Chicago \u2192 America/New_York",
       "Daily sender limit: 15 \u2192 20",
-      "Notification users added for reply monitoring",
-      "Original sequence paused to avoid confusion"
-    ]
+      "Notification users added for reply monitoring"
+    ],
+    "first_sends_expected": "Monday, May 26, 2026"
   },
   "email_sequences": {
     "summary": {
-      "total_sequences": 8,
       "active_sequences": 5,
-      "paused_sequences": 3,
       "total_members": 7391,
       "total_executions": 1157,
       "total_opens": 84,
@@ -53,7 +50,6 @@
         "id": "af6368a3-3983-4a8d-be4c-8763fd9f48d4",
         "status": "active",
         "members": 499,
-        "pending_approvals": 0,
         "completed_members": 0,
         "in_progress": 0,
         "not_started": 499,
@@ -65,37 +61,14 @@
         "replies": 0,
         "bounces": 0,
         "bounce_rate": 0,
-        "ooo": 0,
         "steps": [],
-        "notes": "\ud83d\udd04 Re-launched May 23 5:56 PM EDT. Duplicated from original, timezone fixed to Eastern, 20/day limit. 499 members queued \u2014 expected to begin sending May 26 (Monday)."
-      },
-      {
-        "name": "HVAC Energy Efficiency & System Upgrade Outreach",
-        "id": "5846b049-9a7e-4b51-91af-4e80fd4d9f4c",
-        "status": "paused",
-        "members": 410,
-        "pending_approvals": 0,
-        "completed_members": 0,
-        "in_progress": 0,
-        "not_started": 410,
-        "sent": 0,
-        "opens": 0,
-        "open_rate": 0,
-        "clicks": 0,
-        "click_rate": 0,
-        "replies": 0,
-        "bounces": 0,
-        "bounce_rate": 0,
-        "ooo": 0,
-        "steps": [],
-        "notes": "\u23f8 Paused May 23 \u2014 never sent due to auto-approve issue. Replaced by duplicate 05.23.26."
+        "notes": "\ud83d\udd04 Re-launched May 23 5:56 PM EDT. Duplicated from original, timezone fixed to Eastern, 20/day limit. 499 members queued \u2014 first sends expected Monday May 26."
       },
       {
         "name": "HVAC Repair & Replacement Intent Outreach",
         "id": "6422e8e3-b00b-4f6d-91e9-57313c6120f5",
         "status": "active",
         "members": 1634,
-        "pending_approvals": 0,
         "completed_members": 81,
         "in_progress": 90,
         "not_started": 1463,
@@ -107,7 +80,6 @@
         "replies": 0,
         "bounces": 2,
         "bounce_rate": 0.41,
-        "ooo": 0,
         "steps": [
           {
             "step_order": 1,
@@ -153,7 +125,6 @@
         "id": "edcad84d-2f5f-4cbc-8223-e7e19da5488f",
         "status": "active",
         "members": 1120,
-        "pending_approvals": 0,
         "completed_members": 6,
         "in_progress": 24,
         "not_started": 1090,
@@ -165,7 +136,6 @@
         "replies": 0,
         "bounces": 1,
         "bounce_rate": 1.89,
-        "ooo": 0,
         "steps": [
           {
             "step_order": 1,
@@ -211,7 +181,6 @@
         "id": "764bea0b-64d1-4a78-9687-e71c42a73783",
         "status": "active",
         "members": 3728,
-        "pending_approvals": 0,
         "completed_members": 116,
         "in_progress": 187,
         "not_started": 3425,
@@ -223,7 +192,6 @@
         "replies": 0,
         "bounces": 14,
         "bounce_rate": 2.29,
-        "ooo": 0,
         "steps": [
           {
             "step_order": 1,
@@ -261,34 +229,10 @@
     "active": false,
     "note": "No Prosp (LinkedIn) campaigns for this client."
   },
-  "sequence_audit": {
-    "paused_sequences": [
-      {
-        "name": "HVAC Energy Efficiency & System Upgrade Outreach (original)",
-        "members": 410,
-        "note": "\u23f8 Paused \u2014 never sent. Auto-approve was never enabled. Replaced by duplicate 05.23.26."
-      },
-      {
-        "name": "B2B Commercial \u2014 Third-Party Data \u2014 Daily Outreach",
-        "members": 0,
-        "note": "Empty list, no members \u2014 placeholder from initial setup."
-      },
-      {
-        "name": "B2B Commercial \u2014 AI Intent Data \u2014 Daily Outreach",
-        "members": 0,
-        "note": "Empty list, no members \u2014 placeholder from initial setup."
-      },
-      {
-        "name": "B2C Residential \u2014 AI Intent Data \u2014 Daily Outreach",
-        "members": 0,
-        "note": "Empty list, no members \u2014 placeholder from initial setup."
-      }
-    ]
-  },
   "key_insights": [
     {
       "title": "\u2705 Energy Efficiency Sequence \u2014 Resolved & Re-Launched",
-      "detail": "The original Energy Efficiency sequence was active but never sent due to an auto-approve issue \u2014 it was 'on' but the platform never triggered executions. Sequence has been duplicated, re-launched to 499 contacts, timezone fixed to Eastern, and daily send limit raised to 20. Original is paused."
+      "detail": "The original Energy Efficiency sequence was active but never sent due to an auto-approve issue. Sequence has been duplicated, re-launched to 499 contacts, timezone fixed to Eastern, and daily send limit raised to 20. First sends expected Monday May 26."
     },
     {
       "title": "\ud83d\udd2c First Engagement Data Now Available",
@@ -307,8 +251,8 @@
       "detail": "0 replies from 1,157 total executions. Normal for a brand-new account in its first month."
     },
     {
-      "title": "\ud83e\uddf9 3 Empty Paused Sequences from Initial Setup",
-      "detail": "Three B2B/B2C sequences are paused with 0 members. These are placeholders from initial onboarding \u2014 delete or repurpose."
+      "title": "\ud83d\ude80 Ready for First Full Week",
+      "detail": "With the Energy Efficiency re-launch, all 5 active sequences are now properly configured and sending. Next week (May 26\u201330) will be the first full week of activity for the account."
     }
   ],
   "next_steps": [
@@ -319,23 +263,18 @@
     },
     {
       "priority": "medium",
-      "action": "Clean Up Paused Placeholder Sequences",
-      "detail": "Delete or repurpose the 3 paused B2B/B2C sequences with 0 members. Also consider removing the now-paused original Energy Efficiency sequence once the new one is running."
-    },
-    {
-      "priority": "medium",
       "action": "Monitor Amana Co-Op Bounce Rate",
       "detail": "At 2.29% bounce rate with 14 bounces. Validate Emails is already enabled."
     },
     {
-      "priority": "low",
+      "priority": "medium",
       "action": "Increase Send Volume on Spring HVAC Maintenance",
       "detail": "Only 53/1,120 members reached so far. Consider adding Saturday to accelerate."
     },
     {
       "priority": "low",
       "action": "Set Up Reply Monitoring Alerts",
-      "detail": "As send volume scales, set up notifications for replies so the KCC team can respond promptly."
+      "detail": "As send volume scales, ensure the KCC team gets notified of replies so they can respond promptly."
     }
   ],
   "report_name": "KCC Heating & Cooling Biweekly Report"
